@@ -95,6 +95,7 @@ sub {
 }
 img {
   border: 0;
+  padding: 0;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -595,6 +596,8 @@ dd {
   .dl-horizontal dd {
     margin-left: 180px;
   }
+
+}
 }
 abbr[title],
 abbr[data-original-title] {
@@ -1641,4 +1644,39 @@ pre code {
   .hidden-print {
     display: none !important;
   }
+}
+
+@media (min-width: 1200px) {
+
+  .instagram-content img {
+  padding: 0 0 0 0;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1119px) {
+
+  .instagram-content img {
+  padding: 0 0 100px 0;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .instagram-content img {
+  padding: 0 0 500px 0;
+}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+  .instagram-content img {
+  padding: 0 0 30px 0;
+}
+}
+
+@media (max-width: 575px) {
+
+  .instagram-content img {
+  padding: 0 0 10px 0;
+}
 }
