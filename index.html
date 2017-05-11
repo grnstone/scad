@@ -17,6 +17,7 @@
 
     <!-- Custom CSS -->
     <link href="css/the-big-picture.css" rel="stylesheet">
+    <link href="instafeed.css" rel="stylesheet">
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400" rel="stylesheet">
@@ -27,16 +28,6 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <script type="text/javascript">
-    var feed = new Instafeed({
-        get: 'popular',
-        tagName: 'awesome',
-        clientId: 'Ye9a5812bcb164d4f8549c5e8080b4d4a',
-        template: '<a class="animation" href="{{link}}"><img src="{{image}}" /></a>'
-    });
-    feed.run();
-</script>
 
 </head>
 
@@ -77,23 +68,13 @@
 
      </div>
 
-    <div class="row">
-         
-        <div class="col-md-8 col-sm-12">
-             <!-- SnapWidget -->
-<iframe src="https://snapwidget.com/embed/380183" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:615px; height:615px"></iframe>
-        </div>
-
-     </div>
-
     </div>
 
-<section class="instagram-wrap">
+    <section class="instagram-wrap">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
                     <div class="instagram-content">
-                        <h3>Latest Photos</h3>
                         <div class="row photos-wrap">
                         <!-- Instafeed target div -->
                         <div id="instafeed"></div>

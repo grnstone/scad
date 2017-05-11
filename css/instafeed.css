@@ -1,0 +1,10 @@
+.photo-box {
+        margin: 0 0 $margin*3 0;
+ 
+        .image-wrap {
+            img {
+                width: 100%;
+            }
+ 
+        }
+    }
