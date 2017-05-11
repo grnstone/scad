@@ -1651,20 +1651,27 @@ pre code {
   .instagram-content img {
   padding: 0 0 0 0;
 }
+
 }
 
-@media (min-width: 992px) and (max-width: 1119px) {
+@media (min-width: 992px) and (max-width: 1199px) {
 
   .instagram-content img {
-  padding: 0 0 100px 0;
+  padding: 0 0 4px 0;
 }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 
   .instagram-content img {
-  padding: 0 0 500px 0;
+  padding: 0 0 55px 0;
 }
+
+  h3 {
+  font-size: 20px;
+  }
+
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -1672,6 +1679,14 @@ pre code {
   .instagram-content img {
   padding: 0 0 30px 0;
 }
+
+  h3 {
+  font-size: 18px;
+  }
+
+  h4 {
+  font-size: 16px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -1679,4 +1694,12 @@ pre code {
   .instagram-content img {
   padding: 0 0 10px 0;
 }
+
+  h3 {
+  font-size: 16px;
+  }
+
+  h4 {
+  font-size: 14px;
+  }
 }
