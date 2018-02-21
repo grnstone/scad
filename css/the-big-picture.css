@@ -19,3 +19,8 @@ body {
 }
 
 /* background: url(../gradient_bg.png) no-repeat center center fixed*/
+
+h1 {
+ font-family: "proxima-nova-extra-condensed",sans-serif;
+ letter-spacing: 3px;
+ }
