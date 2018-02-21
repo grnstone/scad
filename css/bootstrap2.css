@@ -236,7 +236,6 @@ a {
 a:hover,
 a:focus {
   color: #4adbae;
-  text-decoration: line-through;
 }
 a:focus {
   outline: 5px auto -webkit-focus-ring-color;
