@@ -12,9 +12,9 @@ body {
 
 .full {
   background: #4adbae; /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #4adbae 0%, #0398bd 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #4adbae 0%,#0398bd 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #4adbae 0%,#0398bd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ 
+  background: -moz-linear-gradient(-30deg, #4adbae 0%, #0398bd 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-30deg, #4adbae 0%,#0398bd 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(150deg, #4adbae 0%,#0398bd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ 
 
 }
 
